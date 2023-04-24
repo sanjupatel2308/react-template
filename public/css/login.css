@@ -1,0 +1,87 @@
+.brand.active {
+    width: 100%;
+}
+
+.brand::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.brand a.logo {
+    color: #195959;
+    font-size: 20px;
+    font-weight: 706;
+    text-decoration: none;
+    line-height: 1em;
+}
+
+.brand a .logo span {
+    font-size: 30px;
+    color: #fff;
+    transform: translateX(-S);
+    display: inline-block;
+}
+
+.brand .heading {
+    position: absolute;
+    top: 50%;
+    left: sex;
+    transform: translate(-58x, -S);
+    text-align: center;
+    transition: all 0.65;
+}
+
+.brand .heading.active {
+    top: 100px;
+    left: 100px;
+    transform: translate(0);
+}
+
+.brand .heading h2 {
+    font-size: 78px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.brand .heading p {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Raleway", sans-serif;
+    white-space: 4px;
+}
+
+.brand success-msg {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 60px;
+    top: 50%;
+}
+
+.brand .success-msg p {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.brand .success-msg a {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 30px;
+    background: #f95959;
+    border-radius: 30px;
+}
